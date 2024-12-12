@@ -1,0 +1,6 @@
+scope IncomeTaxComputation:
+  context income_amount : money
+  context tax_rate : percentage
+  context tax_due : money
+
+  definition tax_due equals income_amount * tax_rate
