@@ -1,6 +1,7 @@
 # Law
 
-#
+![BLOG_Courtroom Isometric Plan_2](https://github.com/user-attachments/assets/7cf27c82-0a66-48ea-9ec4-fc12d62620d8)
+
 
 Quaz. Wex. Exort. 
 
