@@ -1,0 +1,12 @@
+scope UnconditionalDischarge
+
+context:
+  definition unconditional_discharge is a legal decision where no penalty or conditions are imposed on a guilty verdict.
+
+rule:
+  if offense_severity = "minor" and mitigating_circumstances = true
+  then impose_penalty = false
+  and impose_conditions = false.
+
+output:
+  discharge_type = "unconditional".
