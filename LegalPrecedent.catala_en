@@ -1,0 +1,12 @@
+scope LegalPrecedent
+
+context:
+  definition precedent is a prior judicial ruling that guides the outcome of similar cases.
+
+rule:
+  if case_facts = similar_to(previous_case_facts) and precedent_jurisdiction = current_jurisdiction
+  then apply_precedent = true.
+
+output:
+  ruling = precedent_ruling if apply_precedent = true
+  else ruling = judge_discretion.
