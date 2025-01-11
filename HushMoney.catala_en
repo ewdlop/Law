@@ -1,0 +1,11 @@
+scope HushMoney
+
+context:
+  definition hush_money is money paid to ensure silence or confidentiality.
+
+rule:
+  if hush_money is offered
+  then it is considered a bribe under law.
+
+output:
+  hush_money_legal_status = "illegal" if hush_money is greater than 0 and for_the_purpose_of = "concealment".
