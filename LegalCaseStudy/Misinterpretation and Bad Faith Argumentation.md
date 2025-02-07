@@ -1,4 +1,4 @@
-# Legal Case Study
+# Misinterpretation and Bad Faith Argumentation
 
 Sure! Here's a fictional **legal case study** based on your scenario, structured in a formal legal format:
 
